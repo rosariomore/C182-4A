@@ -1,0 +1,31 @@
+.columnitas 
+{ 
+    width: 100%;
+}
+
+.columnitas:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.columna
+{ 
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+    width: 33.33%;
+}
+.imagen1 {
+    border-radius: 50px 0 50px 0  ;
+}
+
+.imagen2 {
+    border-radius: 50px 0 50px 0  ;
+}
+.imagen3 {
+    border-radius: 50px 0 50px 0  ;
+}
+.cuerpo {
+    background-color: rgb(199, 222, 241);
+}
