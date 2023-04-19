@@ -44,7 +44,7 @@
     <p>¡Llena tu pre-solicitud ahora!</p>
 </div>
 <div>
-      <form action="">
+        <form id="turno-form" action="">
         <ul>
           <li>
           <label class="checkbox" for="PlanesMedicos">Planes Medicos</label>
@@ -85,7 +85,7 @@
       <input type="tel" name="telefono" id="" required>
     </li>
     </div>
-            </ul>
+      </ul>
         <div>
           <ul>
             <li>
@@ -98,15 +98,17 @@
               <option value="">Cardiología</option>
             </select>
             </li>
+            <li class="fecha_turno"><label for="fecha">Fecha de Turno:</label>
+              <input type="date" id="fecha" name="fecha" required>
+          </li>
           </ul>
         </div>
     <div>
       <ul>
         <li>
           <label for="text"></label>
-          <textarea name="text" id="" cols="30" rows="10"
-          placeholder="Su Consulta">
-          </textarea>
+          <textarea name="text" id="" cols="40" rows="10"
+          placeholder="Su Consulta"></textarea>
           </li>
         </div>
         <div>
