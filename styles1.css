@@ -111,6 +111,7 @@ textarea{
   width: 100%;
   max-width: 500px;
   resize: none !important;
+  z-index: 1;
 }
 
 label[for="text"] {
@@ -135,6 +136,7 @@ button:hover {
 #barra_especialidades{
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   margin-left: 1em !important;
+  z-index: 2;
 }
   .esp{
     margin: 0px;
