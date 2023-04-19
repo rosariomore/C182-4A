@@ -106,7 +106,7 @@ textarea{
   font-size: 1.2rem;
   border-radius: 5px;
   border: solid 1px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   margin: 5px 0px;
   width: 100%;
   max-width: 500px;
@@ -134,13 +134,14 @@ button:hover {
 }
 #barra_especialidades{
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-left: 1em !important;
 }
   .esp{
     margin: 0px;
     font-size: 1.2rem;
   }
   .fecha_turno{
-    margin: 0 0 0 2.5rem;
+    margin: 0 0 0 1rem;
   }
 
   @media (max-width: 720px) {
